@@ -28,6 +28,8 @@ In order to utilize this client template, you must import its .tpl file into you
 
 Please note that the client's permissions must also be configured accordingly. 
 
+<img width="1426" alt="Captura de pantalla 2024-08-30 a las 14 43 28" src="https://github.com/user-attachments/assets/d1678abd-33b4-40f8-8cff-a5f4514a4a62">
+
 ### Fetch GET call.js
 A script that executes an http GET call from the user's browser to a given GTM Server-Side end-point. The url of this http call contains a userID queryString that needs to be dynamically populated. This value will be passed on to Firestore from GTM Server-Side, so the queryString will need to be updated if another identifier is going to be used. This same script will handle the response from GTM Server-Side and push the contents from this answer to the Google Tag Manager dataLayer.
 
@@ -48,3 +50,5 @@ In order to utilize this client template, you must import its .tpl file into you
 * Collection: Your Firestore Collection Name
 
 Please note that the client's permissions must also be configured accordingly. 
+
+<img width="1427" alt="Captura de pantalla 2024-08-30 a las 14 45 00" src="https://github.com/user-attachments/assets/0a4a48d5-e4f4-4100-8414-e66f708c0307">

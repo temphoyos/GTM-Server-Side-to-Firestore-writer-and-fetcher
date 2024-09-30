@@ -2,7 +2,7 @@
 (function(){
   try{
     //Fetch API
-    fetch('/test?userID=0001',{
+    fetch('https://yourserversideendpoint.com/test?userID=0001',{
     'method': 'POST',
     'credentials': 'include',
     //Populate variables to be included in body of POST with value returned by CJS variables

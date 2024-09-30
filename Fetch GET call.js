@@ -4,7 +4,7 @@
     //Store dataLayer in local variable
     var dataLayer = window.dataLayer || [];
     //Fetch API
-    fetch('/test?userID=0001',{
+    fetch('https://yourserversideendpoint.com/test?userID=0001',{
       'method': 'GET', 
       "credentials": "include"
     })
